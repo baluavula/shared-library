@@ -16,7 +16,7 @@ def call(Map pipelineparams){
                     scripts {
                         echo "printing the two varibales:"
                         println calc.add(3,2)
-                        echo "Microservice name is: ${}"
+                        echo "Microservice name is: ${APP_NAME}"
                     }
                 }
             }
