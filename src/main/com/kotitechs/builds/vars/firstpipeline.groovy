@@ -1,6 +1,6 @@
 import com.kotitechs.builds.calculator
 
-library('com.prasadtechz.slb')
+// library('com.prasadtechz.slb')
 
 def call(Map pipelineparams){
     Calculator calc = new Calculator(this)
