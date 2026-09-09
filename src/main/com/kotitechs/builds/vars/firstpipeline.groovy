@@ -13,7 +13,7 @@ def call(Map pipelineparams){
           //  SNumber = "${pipelineparams.SecondNumber}"
         }
         stages {
-            stage{
+            stage('caluculator'){
                 steps {
                     scripts {
                         echo "printing the two varibales:"
