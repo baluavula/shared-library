@@ -1,4 +1,4 @@
-import com.kotitechs.builds.calculator
+import com.kotitechs.builds.calculator.groovy
 // library('com.prasadtechz.slb')
 def call(Map pipelineparams){
     Calculator calc = new Calculator(this)
