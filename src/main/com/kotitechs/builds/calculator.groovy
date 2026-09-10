@@ -1,7 +1,7 @@
 package com.kotitechs.builds;
 
 //all methods
-def jenkins
+def jenkins = jenkins
 class Calculator{
     Calculator(jenkins){ // this is a  constructor
         this.jenkins = jenkins
@@ -16,5 +16,4 @@ def add(FirstNumber, SecondNumber){
 def sub(FirstNumber, SecondNumber){
     return FirstNumber - SecondNumber
 }
-
 }
