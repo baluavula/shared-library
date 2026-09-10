@@ -1,6 +1,7 @@
 package com.kotitechs.builds;
 
 //all methods
+def jenkins
 class Calculator{
     Calculator(jenkins){ // this is a  constructor
         this.jenkins = jenkins
