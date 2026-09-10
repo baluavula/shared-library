@@ -1,10 +1,7 @@
 import com.kotitechs.builds.calculator
-
 // library('com.prasadtechz.slb')
-
 def call(Map pipelineparams){
     Calculator calc = new Calculator(this)
-
     pipeline {
         agent any
         environments {
