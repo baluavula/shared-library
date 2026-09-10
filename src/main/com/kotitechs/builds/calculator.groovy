@@ -1,19 +1,21 @@
 package com.kotitechs.builds
 
 //all methods
-def jenkins
+
 class Calculator implements Serializable {
-    Calculator(jenkins){ // this is a  constructor
+    def jenkins
+// this is a  constructor
+    Calculator(jenkins){ 
         this.jenkins = jenkins
     }
 
 // addition methods
-def add(def FirstNumber, def SecondNumber){
-    return FirstNumber + SecondNumber
+def add(a, b){
+    return a + b
 }
 
 // substarction method
-def sub(def FirstNumber, def SecondNumber){
-    return FirstNumber - SecondNumber
+def sub(a, b){
+    return a - b
 }
 }

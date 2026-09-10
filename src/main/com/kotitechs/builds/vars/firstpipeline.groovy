@@ -1,4 +1,4 @@
-import com.kotitechs.builds.calculator.groovy
+import com.kotitechs.builds.Calculator
 // library('com.prasadtechz.slb')
 def call(Map pipelineparams){
     Calculator calc = new Calculator(this)
@@ -14,9 +14,9 @@ def call(Map pipelineparams){
                 steps {
                     scripts {
                         echo "printing the two varibales:"
-                        println calc.add(3, 2)
+                        echo "addition result" ${calc.add(3, 2)}
                         echo "dummy  orint"
-                        echo "Microservice name is: ${APP_NAME}"
+                        echo "Microservice name is: ${env.APP_NAME}"
                     }
                 }
             }
